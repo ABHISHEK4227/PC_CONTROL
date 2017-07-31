@@ -4,7 +4,7 @@ Control Your Pc From Your Android Phone
 Requirements:   
 1->Android phone with min SDK 15   
 2->computer with java installed   
-3->Home Router or You can Connect your laptop to the Mobile hotspot    
+3->Home Router or You can Connect your laptop to your Mobile hotspot    
 
 Procedure:   
 1->Install The Android app   
