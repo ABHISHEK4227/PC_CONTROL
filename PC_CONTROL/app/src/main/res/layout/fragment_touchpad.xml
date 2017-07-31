@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   android:orientation="horizontal"
+    >
+
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginRight="0dp"
+    android:background="#90caf9"
+    android:layout_weight="7"
+    >
+
+    <TextView
+        android:id="@+id/touchPadView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="bottom"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/leftClick"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Left Click" />
+
+        <Button
+            android:id="@+id/rightClick"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Right Click" />
+    </LinearLayout>
+
+</LinearLayout>
+<LinearLayout
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+
+    <Button
+        android:id="@+id/Scrollup"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+
+        android:text="U"
+        android:layout_marginBottom="50dp"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Scrolldown"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:text="D"
+
+        android:textSize="10sp" />
+</LinearLayout>
+
+</LinearLayout>
