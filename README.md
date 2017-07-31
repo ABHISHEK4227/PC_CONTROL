@@ -9,7 +9,7 @@ Requirements:
 Procedure:
 1->Install The Android app
 2->Enter the LOCAL IP address of your computer
-3->start the server(java class file) on your computer
-4->Use the TouchPad and the buttons to control your computer
+3->Run the server(java class file) on your computer
+
 
 
